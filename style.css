@@ -180,5 +180,22 @@ header nav .nav-links a:hover::after{
         width: 310px;
     }
 
+    .nav-links{
+        display: flex;
+        
+      
+    }
+
+    .home-link{
+        position: relative;
+        right: 30px;
+    }
+
+    .projects-link{
+        position:relative;
+        right: 45px;
+
+    }
+
 
   }
