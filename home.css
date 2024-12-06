@@ -4,7 +4,7 @@ body{
 
 
 .stage{
-    height: 350px;
+    height: 320px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -87,14 +87,7 @@ header nav{
     font-size: 60px;
     margin-bottom: 15px;
 }
-.content span{
-    background: linear-gradient(to left, #4200fc , #f901fc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
+
 .content p{
     color: #fff;
     margin-top: 50px;
@@ -146,9 +139,7 @@ header nav{
 }
 
 
-.new_footer_area {
-    
-}
+
 
 
 .new_footer_top {
@@ -357,9 +348,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    body{
-        
-    }
+  .stage{
+    height: 10px;
+  }
     
     .content{
         display: flex;
@@ -367,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
         gap: 70px;
         font-size: 3px;
         width: 20px;
-        height: 20px;
+        height: 10px;
         
     }
 
@@ -388,9 +379,9 @@ h1, h2, h3, h4, h5, h6 {
 
     .hero-img{
         padding-top: 15px;
-    border: 6px solid #f901fc;
-    background-color: #07021a;
-    border-radius: 10px;
+        border: 6px solid #f901fc;
+        background-color: #07021a;
+        border-radius: 10px;
     }
 
     .hero-img img{
